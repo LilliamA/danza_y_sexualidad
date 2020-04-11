@@ -7,8 +7,8 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 const initialState = {
   things: [
     {
-      name: "test-123",
-      guid: "123"
+      name: "Danza y sexualidad. Decires refundantes",
+      guid: "23202"
     }
   ]
 };
