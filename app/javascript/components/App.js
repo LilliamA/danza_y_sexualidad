@@ -5,6 +5,10 @@ import {Provider} from 'react-redux'
 import Home from './Home'
 import configureStore from '../configureStore'
 
+
+
+import HelloWorld from './HelloWorld'
+
 const store = configureStore();
 
 class App extends React.Component {
@@ -14,6 +18,7 @@ class App extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/about" render={ ()=> <Home></Home>}/>
+            <Route exact path="/hello" render={ ()=> <HelloWorld greeting="Friend"></HelloWorld>}/>
           </Switch>
         </BrowserRouter>
       </Provider>
